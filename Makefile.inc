@@ -1,6 +1,6 @@
 CC=arm-linux-gnueabi-gcc-4.9
 CFLAGS=-Wall -g -std=c11 -D_GNU_SOURCE
-LDFLAGS=-I../common -L../common -lspotify_embedded_shared -lm -ldl
+LDFLAGS=-I../common -L../common -lspotify_embedded_shared -lasound -lm -ldl
 
 ifdef TARGET
 CLEAN+=$(TARGET)
