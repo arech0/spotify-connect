@@ -98,6 +98,7 @@ struct vars_data {
     char remoteName[0x40];
     char accountReq[0x10];
     char deviceType[0x10];
+    char libraryVer[0x10];
 };
 
 struct SpMetadata {
